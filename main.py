@@ -82,17 +82,4 @@ while True:
 
   else:
       print("+")
-amount = int(jkf - sup)                  data = {
-                      'project_id': project_id,
-                      'apikey': apikey,
-                      'order_id': order_id,
-                      'amount': amount,
-                  }
 
-                  url = 'https://p2pkassa.online/api/v1/link'
-                  print("все ок")
-                  response = requests.post(url, data=data, verify=True)
-                  
-                  result = response.json()
-
-                  print(result)
